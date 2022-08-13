@@ -95,7 +95,7 @@ export async function sendWebhook(msg: string[], event: string, webhookurl: stri
                 "color": color,
                 "description": "```" + content + "```",
                 "footer": {
-                    "text": "Send directly from TTVDropbot made by Zarg!"
+                    "text": "https://github.com/Egirl-Emily/TTVDropBot"
                 },
                 "timestamp": new Date()
             }
