@@ -7,7 +7,7 @@ services:
     env: docker # valid values: https://render.com/docs/yaml-spec#environment
     dockerfilePath: Dockerfile.render
     plan: free # optional; defaults to starter
-    numInstances: 0
+    numInstances: 1
     envVars:
       - key: ttvdropbot_games # Imported from Heroku app
         value: Rocket_League Genshin_Impact Goose_Goose_Duck
